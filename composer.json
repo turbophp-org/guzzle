@@ -1,0 +1,37 @@
+{
+  "name": "turbophp-org/guzzle",
+  "description": "TurboPHP 框架 HTTP 客户端库，基于 Guzzle 封装，提供统一请求接口和便捷的异步/同步操作。",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "turbophp",
+    "framework",
+    "http",
+    "client",
+    "guzzle",
+    "request"
+  ],
+  "homepage": "https://turbophp.org",
+  "support": {
+    "issues": "https://github.com/turbophp-org/guzzle/issues",
+    "source": "https://github.com/turbophp-org/guzzle",
+    "docs": "https://turbophp.org/docs",
+    "pull-request": "https://github.com/turbophp-org/guzzle/pulls"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TurboPHP\\Guzzle\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  }
+}
